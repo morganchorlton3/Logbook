@@ -22,6 +22,3 @@ else:
 
     number_of_pupils_left_over = number_of_pupils % number_of_pupils_in_a_team
     print('Number of pupils left over: ' , number_of_pupils_left_over)
-
-
-
