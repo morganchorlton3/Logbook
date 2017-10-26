@@ -1,18 +1,21 @@
 
         ### Changing Password Program ###
-
-
-
+import string
+import random
 Password_list = ['password', 'Password', 'sesame', 'Sesame', 'letmein', 'LetMeIn', 'Qwerty' , 'Cheese']
 
 Username = str(input('Username: '))
 print('Hi, ' + str(Username) + ' to change your password you need to create a new password, this password must be: \n between 6 and 12 characters \n And it must not match any of the following passwords: ' + str(Password_list))
+def id_generator(size=6, chars=string.ascii_uppercase + string.digits):
+    return ''.join(random.choice(chars) for _ in range(size))
 def change_password():
     Password = str(input('Password: '))
     Password_confirm = str(input('Confirm your password: '))
     if len(Password) < 6:
         print('Error: Your password must be between 6 and 12 characters in length')
-        change_password()
+        print('here is a new password: ')
+        id_generator()
+
     elif len(Password) > 12:
         print('Error: Your password must be between 6 and 12 characters in length')
         change_password()
