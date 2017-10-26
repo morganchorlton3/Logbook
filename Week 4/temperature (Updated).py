@@ -5,9 +5,9 @@ def temperature():
     decision = int(input())
 
     if decision == 1:
-        celsius = float(input ('Enter a temperature in celsius: '))
+        celsius = str(input ('Enter a temperature in celsius: '))
 
-        fahrenheit = float(celsius * 1.8) + 32
+        fahrenheit = str(celsius * 1.8) + 32
         print(celsius ,'C is equal to' , fahrenheit , 'F')
     elif decision == 2:
         fahrenhiet2 = float(input('Enter a temperature in fahrenheit: '))
