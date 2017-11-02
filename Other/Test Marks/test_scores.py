@@ -1,14 +1,11 @@
 name = input('Enter the student\'s name: ')
 
-mark_1 = int (input('Enter first result: '))
-mark_2 = int (input('Enter first result: '))
-mark_3 = int (input('Enter first result: '))
-mark_4 = int (input('Enter first result: '))
-mark_5 = int (input('Enter first result: '))
+print('Please enter each result followed by a \',\Mo'')
+marks = list(input('> '))
 
-total_marks = mark_1 + mark_2 + mark_3 + mark_4 + mark_5
 
-average_marks = total_marks / 5
+total_marks = marks
+
 
 print()
-print('The final mark for ' + name + 'is' + str(average_marks))
+print('The final mark for ' + name + ' is' + str(marks))
