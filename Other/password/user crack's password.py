@@ -6,6 +6,7 @@ print('Hi, to access the secret message please enter the password: ')
 def input_password():
     global password_generation
     password_generation = (''.join(choice(ascii_lowercase) for i in range(12)))
+    print(password_generation)
     global password
     password = str(input('> '))
 

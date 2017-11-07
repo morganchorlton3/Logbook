@@ -1,8 +1,6 @@
 
         ### Changing Password Program ###
 
-
-
 Password_list = ['password', 'Password', 'sesame', 'Sesame', 'letmein', 'LetMeIn', 'Qwerty' , 'Cheese']
 
 Username = str(input('Username: '))

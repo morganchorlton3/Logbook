@@ -1,4 +1,4 @@
-#Converting multiple values
+#Tempreature conversion table of values
 __author__ = "Morgan Chorlton"
 __email__ = "morgan.chorlton3@gmail.com"
 
