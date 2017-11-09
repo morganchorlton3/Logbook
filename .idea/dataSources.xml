@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="jdbc:hsqldb:file:C:/Users/morga/OneDrive - University of Huddersfield/Documents/University/Software Design And Development (Practical)/Python/Logbook/Other/Django/db.sqlite3/" uuid="7c5e6def-5c27-482e-9221-1398cf334ec2">
+      <driver-ref>hsqldb.local</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>org.hsqldb.jdbc.JDBCDriver</jdbc-driver>
+      <jdbc-url>jdbc:hsqldb:file:$PROJECT_DIR$/Other/Django/db.sqlite3/</jdbc-url>
+    </data-source>
+  </component>
+</project>
