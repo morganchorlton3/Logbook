@@ -1,6 +1,6 @@
 # useless technical support help line
 __author__ = 'Morgan Chorlton'
-__email__ = 'morgan.chorlton3@gmail.com'
+__email__ = 'morganchorlton3@gmail.com'
 __date__ = '09/11/2017'
 
 import random
@@ -9,15 +9,19 @@ from random import randint
 answers = ['yes', 'no', 'maybe']
 print('Hello user welcome to the technical support help line.')
 
+def chance():
+    chance = randint(0, 100)
+    if int(chance) < 10:
+        exit()
+    else:
+        pass
+
 def ask():
     global question
     print('Please enter you question.')
     question = input(str('> '))
-    chance = randint(0,100)
-    if chance > 10:
-        exit()
-    else:
-        pass
+    chance()
+    check()
 
 
 def check():
@@ -35,15 +39,9 @@ def repeat_question():
     global question
     print('Do you have another question for me, if you want to exit the application then type exit')
     question = input(str('>'))
-    chance = randint(0, 100)
-    if chance > 10:
-        exit()
-    else:
-        pass
+    chance()
     if 'exit' in str.lower(question):
         exit()
     else:
         check()
-
 ask()
-check()
