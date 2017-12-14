@@ -1,4 +1,4 @@
-number_of_pupils = 172
+number_of_pupils = 147
 number_of_pupils_in_a_team = 5
 
 print('Number of pupils: ' , number_of_pupils)
